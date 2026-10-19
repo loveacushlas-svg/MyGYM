@@ -1,0 +1,40 @@
+# Exercise media downloaded by installs before v1.4.0
+media/img/
+media/gif/
+
+# Runtime data - users, passkeys, sessions
+data/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+
+# Build output
+frontend/dist/
+dist/
+build/
+
+# Logs and OS files
+*.log
+.DS_Store
+
+# Local AI development tools
+.claude/
+.agents/
+.superpowers/
+
+# Nix build result symlinks
+result
+result-*
+
+# CI reports
+junit.xml
+coverage/
+frontend/bundle-size.json
+
+# Local planning notes
+docs/superpowers/plans/
